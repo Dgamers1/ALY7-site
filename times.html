@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Times — ARENA XI</title>
+<meta name="description" content="Perfis detalhados dos principais clubes do futebol mundial: história, títulos, ídolos, elenco atual e estádio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <svg class="brand__mark" viewBox="0 0 48 48" fill="none">
+        <circle cx="24" cy="24" r="22" fill="#0A1128" stroke="#E8B33D" stroke-width="2"/>
+        <text x="24" y="29" text-anchor="middle" font-family="Bebas Neue, sans-serif" font-size="14" fill="#E8B33D">XI</text>
+      </svg>
+      <span>
+        <span class="brand__name">ARENA <em>XI</em></span>
+        <span class="brand__tag">Futebol mundial</span>
+      </span>
+    </a>
+    <nav>
+      <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <div class="nav__links">
+        <a href="index.html">Início</a>
+        <a href="ligas.html">Ligas</a>
+        <a href="times.html">Times</a>
+        <a href="contato.html">Contato</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero pitch-bg">
+    <div class="container">
+      <span class="eyebrow">Clubes</span>
+      <h1>Os clubes por trás<br>das grandes ligas</h1>
+      <p>Escudo, estádio, história, títulos, ídolos e a provável escalação de cada equipe. Toque em um card para abrir o perfil completo.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:56px;">
+    <div class="container">
+
+      <div class="filters reveal">
+        <button class="filter-btn active" data-filter="todas">Todas</button>
+        <button class="filter-btn" data-filter="premier">Premier League</button>
+        <button class="filter-btn" data-filter="laliga">La Liga</button>
+        <button class="filter-btn" data-filter="seriea">Serie A</button>
+        <button class="filter-btn" data-filter="bundesliga">Bundesliga</button>
+        <button class="filter-btn" data-filter="ligue1">Ligue 1</button>
+        <button class="filter-btn" data-filter="brasileirao">Brasileirão</button>
+      </div>
+
+      <div class="grid grid--2" style="gap:20px;">
+
+        <!-- REAL MADRID -->
+        <article class="team-card reveal" id="real-madrid" data-league="laliga">
+          <div class="team-card__top">
+            <svg class="team-card__crest" viewBox="0 0 24 24"><path d="M12 2 L22 8 L18 20 L6 20 L2 8 Z" fill="#0F1730" stroke="#FEBE10" stroke-width="1.2"/></svg>
+            <div>
+              <small>La Liga · Espanha</small>
+              <h3 style="margin:0;">Real Madrid</h3>
+            </div>
+            <span class="chev">▾</span>
+          </div>
+          <div class="team-card__body">
+            <div class="team-card__inner">
+              <div>
+                <div class="info-list">
+                  <div><b>Fundação</b>1902</div>
+                  <div><b>Cidade</b>Madri, Espanha</div>
+                  <div><b>Estádio</b>Santiago Bernabéu</div>
+                  <div><b>Técnico</b>Xabi Alonso</div>
+                </div>
+                <p>Um dos clubes mais vitoriosos da história do futebol mundial, o Real Madrid é o maior campeão da Champions League / Copa dos Campeões da Europa. Símbolo de tradição e grandes contratações, o clube alterna gerações de craques mantendo-se sempre entre os favoritos ao título nas competições que disputa.</p>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Principais títulos</h4>
+                <div class="tag-list"><span class="tag-pill">15x Champions League</span><span class="tag-pill">36x La Liga</span><span class="tag-pill">20x Copa do Rei</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Ídolos históricos</h4>
+                <div class="tag-list"><span class="tag-pill">Alfredo Di Stéfano</span><span class="tag-pill">Raúl</span><span class="tag-pill">Cristiano Ronaldo</span><span class="tag-pill">Iker Casillas</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Elenco atual (destaques)</h4>
+                <div class="tag-list"><span class="tag-pill">Kylian Mbappé</span><span class="tag-pill">Jude Bellingham</span><span class="tag-pill">Vinícius Júnior</span><span class="tag-pill">Thibaut Courtois</span></div>
+              </div>
+              <div>
+                <div class="lineup">
+                  <span class="meta" style="display:block;text-align:center;margin-bottom:8px;">Provável escalação (exemplo · 4-3-3)</span>
+                  <div class="row"><div class="player"><b>1</b>Courtois</div></div>
+                  <div class="row"><div class="player"><b>4</b>Alaba</div><div class="player"><b>2</b>Carvajal</div><div class="player"><b>3</b>Militão</div><div class="player"><b>23</b>Mendy</div></div>
+                  <div class="row"><div class="player"><b>15</b>Tchouaméni</div><div class="player"><b>5</b>Bellingham</div><div class="player"><b>19</b>Camavinga</div></div>
+                  <div class="row"><div class="player"><b>7</b>Vini Jr.</div><div class="player"><b>9</b>Mbappé</div><div class="player"><b>11</b>Rodrygo</div></div>
+                </div>
+                <div class="stadium-strip"><span>🏟️ Santiago Bernabéu · 78.297 lugares</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- BARCELONA -->
+        <article class="team-card reveal" id="barcelona" data-league="laliga">
+          <div class="team-card__top">
+            <svg class="team-card__crest" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#0F1730" stroke="#A50044" stroke-width="1.2"/></svg>
+            <div>
+              <small>La Liga · Espanha</small>
+              <h3 style="margin:0;">FC Barcelona</h3>
+            </div>
+            <span class="chev">▾</span>
+          </div>
+          <div class="team-card__body">
+            <div class="team-card__inner">
+              <div>
+                <div class="info-list">
+                  <div><b>Fundação</b>1899</div>
+                  <div><b>Cidade</b>Barcelona, Espanha</div>
+                  <div><b>Estádio</b>Camp Nou (Spotify Camp Nou)</div>
+                  <div><b>Técnico</b>Hansi Flick</div>
+                </div>
+                <p>Conhecido pelo lema "Mais que um clube", o Barcelona é referência mundial em futebol de posse de bola, tendo consolidado o estilo conhecido como "tiki-taka" e revelado alguns dos maiores craques da história através de sua tradicional academia, La Masia.</p>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Principais títulos</h4>
+                <div class="tag-list"><span class="tag-pill">5x Champions League</span><span class="tag-pill">27x La Liga</span><span class="tag-pill">31x Copa do Rei</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Ídolos históricos</h4>
+                <div class="tag-list"><span class="tag-pill">Lionel Messi</span><span class="tag-pill">Johan Cruyff</span><span class="tag-pill">Ronaldinho</span><span class="tag-pill">Xavi</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Elenco atual (destaques)</h4>
+                <div class="tag-list"><span class="tag-pill">Lamine Yamal</span><span class="tag-pill">Robert Lewandowski</span><span class="tag-pill">Pedri</span><span class="tag-pill">Raphinha</span></div>
+              </div>
+              <div>
+                <div class="lineup">
+                  <span class="meta" style="display:block;text-align:center;margin-bottom:8px;">Provável escalação (exemplo · 4-3-3)</span>
+                  <div class="row"><div class="player"><b>1</b>Ter Stegen</div></div>
+                  <div class="row"><div class="player"><b>3</b>Balde</div><div class="player"><b>2</b>Koundé</div><div class="player"><b>5</b>Araújo</div><div class="player"><b>23</b>Kounde</div></div>
+                  <div class="row"><div class="player"><b>21</b>De Jong</div><div class="player"><b>8</b>Pedri</div><div class="player"><b>6</b>Gavi</div></div>
+                  <div class="row"><div class="player"><b>11</b>Raphinha</div><div class="player"><b>9</b>Lewandowski</div><div class="player"><b>19</b>Yamal</div></div>
+                </div>
+                <div class="stadium-strip"><span>🏟️ Camp Nou · +48.000 lugares (em reforma)</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- MANCHESTER CITY -->
+        <article class="team-card reveal" id="man-city" data-league="premier">
+          <div class="team-card__top">
+            <svg class="team-card__crest" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#0F1730" stroke="#6CABDD" stroke-width="1.2"/></svg>
+            <div>
+              <small>Premier League · Inglaterra</small>
+              <h3 style="margin:0;">Manchester City</h3>
+            </div>
+            <span class="chev">▾</span>
+          </div>
+          <div class="team-card__body">
+            <div class="team-card__inner">
+              <div>
+                <div class="info-list">
+                  <div><b>Fundação</b>1880</div>
+                  <div><b>Cidade</b>Manchester, Inglaterra</div>
+                  <div><b>Estádio</b>Etihad Stadium</div>
+                  <div><b>Técnico</b>Pep Guardiola</div>
+                </div>
+                <p>Transformado numa das maiores potências do futebol europeu na última década, o City construiu sua identidade em torno de um futebol de posse e movimentação constante, sendo hexacampeão nacional recente e campeão da Champions League em 2023.</p>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Principais títulos</h4>
+                <div class="tag-list"><span class="tag-pill">1x Champions League</span><span class="tag-pill">10x Premier League</span><span class="tag-pill">7x FA Cup</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Ídolos históricos</h4>
+                <div class="tag-list"><span class="tag-pill">Sergio Agüero</span><span class="tag-pill">David Silva</span><span class="tag-pill">Vincent Kompany</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Elenco atual (destaques)</h4>
+                <div class="tag-list"><span class="tag-pill">Erling Haaland</span><span class="tag-pill">Rodri</span><span class="tag-pill">Phil Foden</span><span class="tag-pill">Ederson</span></div>
+              </div>
+              <div>
+                <div class="lineup">
+                  <span class="meta" style="display:block;text-align:center;margin-bottom:8px;">Provável escalação (exemplo · 4-2-3-1)</span>
+                  <div class="row"><div class="player"><b>31</b>Ederson</div></div>
+                  <div class="row"><div class="player"><b>3</b>Gvardiol</div><div class="player"><b>5</b>Dias</div><div class="player"><b>6</b>Stones</div><div class="player"><b>2</b>Walker</div></div>
+                  <div class="row"><div class="player"><b>16</b>Rodri</div><div class="player"><b>8</b>Gündoğan</div></div>
+                  <div class="row"><div class="player"><b>11</b>Doku</div><div class="player"><b>47</b>Foden</div><div class="player"><b>9</b>Haaland</div></div>
+                </div>
+                <div class="stadium-strip"><span>🏟️ Etihad Stadium · 53.400 lugares</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- LIVERPOOL -->
+        <article class="team-card reveal" id="liverpool" data-league="premier">
+          <div class="team-card__top">
+            <svg class="team-card__crest" viewBox="0 0 24 24"><path d="M12 2 L14 9 L21 9 L15.5 13 L17.5 20 L12 16 L6.5 20 L8.5 13 L3 9 L10 9 Z" fill="#0F1730" stroke="#C8102E" stroke-width="1"/></svg>
+            <div>
+              <small>Premier League · Inglaterra</small>
+              <h3 style="margin:0;">Liverpool</h3>
+            </div>
+            <span class="chev">▾</span>
+          </div>
+          <div class="team-card__body">
+            <div class="team-card__inner">
+              <div>
+                <div class="info-list">
+                  <div><b>Fundação</b>1892</div>
+                  <div><b>Cidade</b>Liverpool, Inglaterra</div>
+                  <div><b>Estádio</b>Anfield</div>
+                  <div><b>Técnico</b>Arne Slot</div>
+                </div>
+                <p>Um dos clubes mais tradicionais da Inglaterra, o Liverpool é conhecido pela atmosfera de Anfield e pelo hino "You'll Never Walk Alone", cantado pela torcida antes de cada partida. É um dos maiores campeões europeus da história do país.</p>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Principais títulos</h4>
+                <div class="tag-list"><span class="tag-pill">6x Champions League</span><span class="tag-pill">19x Premier/1ª divisão</span><span class="tag-pill">8x FA Cup</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Ídolos históricos</h4>
+                <div class="tag-list"><span class="tag-pill">Steven Gerrard</span><span class="tag-pill">Kenny Dalglish</span><span class="tag-pill">Mohamed Salah</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Elenco atual (destaques)</h4>
+                <div class="tag-list"><span class="tag-pill">Mohamed Salah</span><span class="tag-pill">Virgil van Dijk</span><span class="tag-pill">Alisson</span><span class="tag-pill">Alexis Mac Allister</span></div>
+              </div>
+              <div>
+                <div class="lineup">
+                  <span class="meta" style="display:block;text-align:center;margin-bottom:8px;">Provável escalação (exemplo · 4-3-3)</span>
+                  <div class="row"><div class="player"><b>1</b>Alisson</div></div>
+                  <div class="row"><div class="player"><b>66</b>Alexander-Arnold</div><div class="player"><b>4</b>Van Dijk</div><div class="player"><b>5</b>Konaté</div><div class="player"><b>26</b>Robertson</div></div>
+                  <div class="row"><div class="player"><b>3</b>Mac Allister</div><div class="player"><b>38</b>Gravenberch</div><div class="player"><b>10</b>Szoboszlai</div></div>
+                  <div class="row"><div class="player"><b>11</b>Salah</div><div class="player"><b>9</b>Núñez</div><div class="player"><b>7</b>Díaz</div></div>
+                </div>
+                <div class="stadium-strip"><span>🏟️ Anfield · 61.000 lugares</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- JUVENTUS -->
+        <article class="team-card reveal" id="juventus" data-league="seriea">
+          <div class="team-card__top">
+            <svg class="team-card__crest" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3" fill="#0F1730" stroke="#F4F6F0" stroke-width="1.2"/></svg>
+            <div>
+              <small>Serie A · Itália</small>
+              <h3 style="margin:0;">Juventus</h3>
+            </div>
+            <span class="chev">▾</span>
+          </div>
+          <div class="team-card__body">
+            <div class="team-card__inner">
+              <div>
+                <div class="info-list">
+                  <div><b>Fundação</b>1897</div>
+                  <div><b>Cidade</b>Turim, Itália</div>
+                  <div><b>Estádio</b>Allianz Stadium</div>
+                  <div><b>Técnico</b>Igor Tudor</div>
+                </div>
+                <p>Maior campeã italiana, a "Velha Senhora" é conhecida pela tradicional camisa listrada em preto e branco e por um dos elencos mais vitoriosos da história do país, além de protagonizar o histórico Derby d'Italia contra a Inter de Milão.</p>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Principais títulos</h4>
+                <div class="tag-list"><span class="tag-pill">2x Champions/Copa dos Campeões</span><span class="tag-pill">36x Serie A</span><span class="tag-pill">15x Coppa Italia</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Ídolos históricos</h4>
+                <div class="tag-list"><span class="tag-pill">Alessandro Del Piero</span><span class="tag-pill">Gianluigi Buffon</span><span class="tag-pill">Michel Platini</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Elenco atual (destaques)</h4>
+                <div class="tag-list"><span class="tag-pill">Dušan Vlahović</span><span class="tag-pill">Kenan Yıldız</span><span class="tag-pill">Manuel Locatelli</span></div>
+              </div>
+              <div>
+                <div class="lineup">
+                  <span class="meta" style="display:block;text-align:center;margin-bottom:8px;">Provável escalação (exemplo · 3-5-2)</span>
+                  <div class="row"><div class="player"><b>1</b>Di Gregorio</div></div>
+                  <div class="row"><div class="player"><b>4</b>Gatti</div><div class="player"><b>15</b>Kalulu</div><div class="player"><b>6</b>Kelly</div></div>
+                  <div class="row"><div class="player"><b>27</b>Weah</div><div class="player"><b>5</b>Locatelli</div><div class="player"><b>10</b>Yıldız</div></div>
+                  <div class="row"><div class="player"><b>9</b>Vlahović</div><div class="player"><b>16</b>Conceição</div></div>
+                </div>
+                <div class="stadium-strip"><span>🏟️ Allianz Stadium · 41.507 lugares</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- INTER DE MILÃO -->
+        <article class="team-card reveal" id="inter" data-league="seriea">
+          <div class="team-card__top">
+            <svg class="team-card__crest" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#0F1730" stroke="#0068A8" stroke-width="1.2"/></svg>
+            <div>
+              <small>Serie A · Itália</small>
+              <h3 style="margin:0;">Inter de Milão</h3>
+            </div>
+            <span class="chev">▾</span>
+          </div>
+          <div class="team-card__body">
+            <div class="team-card__inner">
+              <div>
+                <div class="info-list">
+                  <div><b>Fundação</b>1908</div>
+                  <div><b>Cidade</b>Milão, Itália</div>
+                  <div><b>Estádio</b>San Siro (Giuseppe Meazza)</div>
+                  <div><b>Técnico</b>Cristian Chivu</div>
+                </div>
+                <p>Um dos dois grandes clubes de Milão, a Internazionale nunca foi rebaixada à segunda divisão italiana e é reconhecida por temporadas de forte consistência, incluindo finais recentes da Champions League e títulos nacionais no país.</p>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Principais títulos</h4>
+                <div class="tag-list"><span class="tag-pill">3x Champions/Copa dos Campeões</span><span class="tag-pill">20x Serie A</span><span class="tag-pill">9x Coppa Italia</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Ídolos históricos</h4>
+                <div class="tag-list"><span class="tag-pill">Javier Zanetti</span><span class="tag-pill">Ronaldo Fenômeno</span><span class="tag-pill">Giuseppe Meazza</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Elenco atual (destaques)</h4>
+                <div class="tag-list"><span class="tag-pill">Lautaro Martínez</span><span class="tag-pill">Nicolò Barella</span><span class="tag-pill">Yann Sommer</span></div>
+              </div>
+              <div>
+                <div class="lineup">
+                  <span class="meta" style="display:block;text-align:center;margin-bottom:8px;">Provável escalação (exemplo · 3-5-2)</span>
+                  <div class="row"><div class="player"><b>1</b>Sommer</div></div>
+                  <div class="row"><div class="player"><b>95</b>Bastoni</div><div class="player"><b>6</b>de Vrij</div><div class="player"><b>15</b>Acerbi</div></div>
+                  <div class="row"><div class="player"><b>32</b>Dimarco</div><div class="player"><b>5</b>Barella</div><div class="player"><b>20</b>Çalhanoğlu</div><div class="player"><b>22</b>Dumfries</div></div>
+                  <div class="row"><div class="player"><b>10</b>Lautaro</div><div class="player"><b>9</b>Thuram</div></div>
+                </div>
+                <div class="stadium-strip"><span>🏟️ San Siro · 75.923 lugares</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- BAYERN DE MUNIQUE -->
+        <article class="team-card reveal" id="bayern" data-league="bundesliga">
+          <div class="team-card__top">
+            <svg class="team-card__crest" viewBox="0 0 24 24"><polygon points="12,3 21,9 21,15 12,21 3,15 3,9" fill="#0F1730" stroke="#DC052D" stroke-width="1.2"/></svg>
+            <div>
+              <small>Bundesliga · Alemanha</small>
+              <h3 style="margin:0;">Bayern de Munique</h3>
+            </div>
+            <span class="chev">▾</span>
+          </div>
+          <div class="team-card__body">
+            <div class="team-card__inner">
+              <div>
+                <div class="info-list">
+                  <div><b>Fundação</b>1900</div>
+                  <div><b>Cidade</b>Munique, Alemanha</div>
+                  <div><b>Estádio</b>Allianz Arena</div>
+                  <div><b>Técnico</b>Vincent Kompany</div>
+                </div>
+                <p>Clube mais vitorioso da Alemanha, o Bayern domina a Bundesliga há mais de uma década e figura constantemente entre os favoritos ao título europeu, sustentado por uma base sólida de formação e grandes contratações internacionais.</p>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Principais títulos</h4>
+                <div class="tag-list"><span class="tag-pill">6x Champions League</span><span class="tag-pill">34x Bundesliga</span><span class="tag-pill">20x Copa da Alemanha</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Ídolos históricos</h4>
+                <div class="tag-list"><span class="tag-pill">Franz Beckenbauer</span><span class="tag-pill">Gerd Müller</span><span class="tag-pill">Philipp Lahm</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Elenco atual (destaques)</h4>
+                <div class="tag-list"><span class="tag-pill">Harry Kane</span><span class="tag-pill">Jamal Musiala</span><span class="tag-pill">Manuel Neuer</span></div>
+              </div>
+              <div>
+                <div class="lineup">
+                  <span class="meta" style="display:block;text-align:center;margin-bottom:8px;">Provável escalação (exemplo · 4-2-3-1)</span>
+                  <div class="row"><div class="player"><b>1</b>Neuer</div></div>
+                  <div class="row"><div class="player"><b>19</b>Davies</div><div class="player"><b>4</b>Upamecano</div><div class="player"><b>2</b>Dier</div><div class="player"><b>22</b>Laimer</div></div>
+                  <div class="row"><div class="player"><b>6</b>Kimmich</div><div class="player"><b>42</b>Musiala</div></div>
+                  <div class="row"><div class="player"><b>10</b>Coman</div><div class="player"><b>9</b>Kane</div><div class="player"><b>7</b>Gnabry</div></div>
+                </div>
+                <div class="stadium-strip"><span>🏟️ Allianz Arena · 75.000 lugares</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- BORUSSIA DORTMUND -->
+        <article class="team-card reveal" id="dortmund" data-league="bundesliga">
+          <div class="team-card__top">
+            <svg class="team-card__crest" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#0F1730" stroke="#FDE100" stroke-width="1.2"/></svg>
+            <div>
+              <small>Bundesliga · Alemanha</small>
+              <h3 style="margin:0;">Borussia Dortmund</h3>
+            </div>
+            <span class="chev">▾</span>
+          </div>
+          <div class="team-card__body">
+            <div class="team-card__inner">
+              <div>
+                <div class="info-list">
+                  <div><b>Fundação</b>1909</div>
+                  <div><b>Cidade</b>Dortmund, Alemanha</div>
+                  <div><b>Estádio</b>Signal Iduna Park</div>
+                  <div><b>Técnico</b>Niko Kovač</div>
+                </div>
+                <p>Famoso pela "Muralha Amarela", a maior arquibancada de torcida única da Europa, o Dortmund é reconhecido por revelar jovens talentos e por um futebol intenso e ofensivo que já lhe rendeu títulos nacionais e europeus.</p>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Principais títulos</h4>
+                <div class="tag-list"><span class="tag-pill">1x Champions League</span><span class="tag-pill">8x Bundesliga</span><span class="tag-pill">5x Copa da Alemanha</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Ídolos históricos</h4>
+                <div class="tag-list"><span class="tag-pill">Michael Zorc</span><span class="tag-pill">Marco Reus</span><span class="tag-pill">Matthias Sammer</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Elenco atual (destaques)</h4>
+                <div class="tag-list"><span class="tag-pill">Karim Adeyemi</span><span class="tag-pill">Serhou Guirassy</span><span class="tag-pill">Gregor Kobel</span></div>
+              </div>
+              <div>
+                <div class="lineup">
+                  <span class="meta" style="display:block;text-align:center;margin-bottom:8px;">Provável escalação (exemplo · 4-2-3-1)</span>
+                  <div class="row"><div class="player"><b>1</b>Kobel</div></div>
+                  <div class="row"><div class="player"><b>17</b>Bensebaini</div><div class="player"><b>4</b>Anton</div><div class="player"><b>25</b>Schlotterbeck</div><div class="player"><b>2</b>Ryerson</div></div>
+                  <div class="row"><div class="player"><b>21</b>Nmecha</div><div class="player"><b>19</b>Groß</div></div>
+                  <div class="row"><div class="player"><b>27</b>Adeyemi</div><div class="player"><b>9</b>Guirassy</div><div class="player"><b>43</b>Brandt</div></div>
+                </div>
+                <div class="stadium-strip"><span>🏟️ Signal Iduna Park · 81.365 lugares</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- PSG -->
+        <article class="team-card reveal" id="psg" data-league="ligue1">
+          <div class="team-card__top">
+            <svg class="team-card__crest" viewBox="0 0 24 24"><path d="M12 2 22 8 18 20 6 20 2 8Z" fill="#0F1730" stroke="#004170" stroke-width="1.2"/></svg>
+            <div>
+              <small>Ligue 1 · França</small>
+              <h3 style="margin:0;">Paris Saint-Germain</h3>
+            </div>
+            <span class="chev">▾</span>
+          </div>
+          <div class="team-card__body">
+            <div class="team-card__inner">
+              <div>
+                <div class="info-list">
+                  <div><b>Fundação</b>1970</div>
+                  <div><b>Cidade</b>Paris, França</div>
+                  <div><b>Estádio</b>Parc des Princes</div>
+                  <div><b>Técnico</b>Luis Enrique</div>
+                </div>
+                <p>Principal força da Ligue 1 nas últimas décadas, o PSG se tornou uma potência global após grandes investimentos, reunindo elencos estrelados e conquistando, enfim, seu primeiro título de Champions League.</p>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Principais títulos</h4>
+                <div class="tag-list"><span class="tag-pill">1x Champions League</span><span class="tag-pill">13x Ligue 1</span><span class="tag-pill">15x Copa da França</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Ídolos históricos</h4>
+                <div class="tag-list"><span class="tag-pill">Zlatan Ibrahimović</span><span class="tag-pill">Thiago Silva</span><span class="tag-pill">Marco Verratti</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Elenco atual (destaques)</h4>
+                <div class="tag-list"><span class="tag-pill">Ousmane Dembélé</span><span class="tag-pill">Vitinha</span><span class="tag-pill">Gianluigi Donnarumma</span></div>
+              </div>
+              <div>
+                <div class="lineup">
+                  <span class="meta" style="display:block;text-align:center;margin-bottom:8px;">Provável escalação (exemplo · 4-3-3)</span>
+                  <div class="row"><div class="player"><b>1</b>Donnarumma</div></div>
+                  <div class="row"><div class="player"><b>25</b>Mendes</div><div class="player"><b>4</b>Pacho</div><div class="player"><b>2</b>Marquinhos</div><div class="player"><b>3</b>Hakimi</div></div>
+                  <div class="row"><div class="player"><b>17</b>Vitinha</div><div class="player"><b>5</b>Zaïre-Emery</div><div class="player"><b>6</b>Ruiz</div></div>
+                  <div class="row"><div class="player"><b>10</b>Dembélé</div><div class="player"><b>7</b>Barcola</div><div class="player"><b>29</b>Doué</div></div>
+                </div>
+                <div class="stadium-strip"><span>🏟️ Parc des Princes · 47.929 lugares</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- OLYMPIQUE DE MARSELHA -->
+        <article class="team-card reveal" id="marselha" data-league="ligue1">
+          <div class="team-card__top">
+            <svg class="team-card__crest" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3" fill="#0F1730" stroke="#2FAEE0" stroke-width="1.2"/></svg>
+            <div>
+              <small>Ligue 1 · França</small>
+              <h3 style="margin:0;">Olympique de Marselha</h3>
+            </div>
+            <span class="chev">▾</span>
+          </div>
+          <div class="team-card__body">
+            <div class="team-card__inner">
+              <div>
+                <div class="info-list">
+                  <div><b>Fundação</b>1899</div>
+                  <div><b>Cidade</b>Marselha, França</div>
+                  <div><b>Estádio</b>Stade Vélodrome</div>
+                  <div><b>Técnico</b>Roberto De Zerbi</div>
+                </div>
+                <p>Único clube francês campeão da Champions League, o Marselha carrega uma das torcidas mais apaixonadas do país e mantém forte rivalidade histórica com o PSG no clássico "Le Classique".</p>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Principais títulos</h4>
+                <div class="tag-list"><span class="tag-pill">1x Champions League</span><span class="tag-pill">10x Ligue 1</span><span class="tag-pill">10x Copa da França</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Ídolos históricos</h4>
+                <div class="tag-list"><span class="tag-pill">Didier Drogba</span><span class="tag-pill">Jean-Pierre Papin</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Elenco atual (destaques)</h4>
+                <div class="tag-list"><span class="tag-pill">Mason Greenwood</span><span class="tag-pill">Pierre-Emerick Aubameyang</span></div>
+              </div>
+              <div>
+                <div class="lineup">
+                  <span class="meta" style="display:block;text-align:center;margin-bottom:8px;">Provável escalação (exemplo · 4-3-3)</span>
+                  <div class="row"><div class="player"><b>16</b>Rulli</div></div>
+                  <div class="row"><div class="player"><b>3</b>Nadir</div><div class="player"><b>4</b>Balerdi</div><div class="player"><b>26</b>Medina</div><div class="player"><b>2</b>Murillo</div></div>
+                  <div class="row"><div class="player"><b>8</b>Höjbjerg</div><div class="player"><b>6</b>Bilal</div><div class="player"><b>29</b>Vermeeren</div></div>
+                  <div class="row"><div class="player"><b>7</b>Greenwood</div><div class="player"><b>9</b>Aubameyang</div><div class="player"><b>11</b>O'Riley</div></div>
+                </div>
+                <div class="stadium-strip"><span>🏟️ Stade Vélodrome · 67.394 lugares</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- FLAMENGO -->
+        <article class="team-card reveal" id="flamengo" data-league="brasileirao">
+          <div class="team-card__top">
+            <svg class="team-card__crest" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#0F1730" stroke="#C1272D" stroke-width="1.2"/></svg>
+            <div>
+              <small>Brasileirão · Brasil</small>
+              <h3 style="margin:0;">Flamengo</h3>
+            </div>
+            <span class="chev">▾</span>
+          </div>
+          <div class="team-card__body">
+            <div class="team-card__inner">
+              <div>
+                <div class="info-list">
+                  <div><b>Fundação</b>1895</div>
+                  <div><b>Cidade</b>Rio de Janeiro, Brasil</div>
+                  <div><b>Estádio</b>Maracanã (mandante)</div>
+                  <div><b>Técnico</b>Filipe Luís</div>
+                </div>
+                <p>Dono da maior torcida do Brasil, o Flamengo viveu seu auge internacional em 1981, ao conquistar a Copa Libertadores e o Mundial de Clubes, e segue como uma das forças mais consistentes do futebol brasileiro nas últimas temporadas.</p>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Principais títulos</h4>
+                <div class="tag-list"><span class="tag-pill">3x Copa Libertadores</span><span class="tag-pill">8x Brasileirão</span><span class="tag-pill">1x Mundial de Clubes</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Ídolos históricos</h4>
+                <div class="tag-list"><span class="tag-pill">Zico</span><span class="tag-pill">Júnior</span><span class="tag-pill">Zagallo</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Elenco atual (destaques)</h4>
+                <div class="tag-list"><span class="tag-pill">Gerson</span><span class="tag-pill">Bruno Henrique</span><span class="tag-pill">Rossi</span></div>
+              </div>
+              <div>
+                <div class="lineup">
+                  <span class="meta" style="display:block;text-align:center;margin-bottom:8px;">Provável escalação (exemplo · 4-3-3)</span>
+                  <div class="row"><div class="player"><b>1</b>Rossi</div></div>
+                  <div class="row"><div class="player"><b>6</b>Ayrton Lucas</div><div class="player"><b>4</b>Léo Pereira</div><div class="player"><b>3</b>Danilo</div><div class="player"><b>2</b>Wesley</div></div>
+                  <div class="row"><div class="player"><b>5</b>Erick Pulgar</div><div class="player"><b>8</b>Gerson</div><div class="player"><b>10</b>Arrascaeta</div></div>
+                  <div class="row"><div class="player"><b>27</b>B. Henrique</div><div class="player"><b>9</b>Pedro</div><div class="player"><b>11</b>Luiz Araújo</div></div>
+                </div>
+                <div class="stadium-strip"><span>🏟️ Maracanã · 78.838 lugares</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- PALMEIRAS -->
+        <article class="team-card reveal" id="palmeiras" data-league="brasileirao">
+          <div class="team-card__top">
+            <svg class="team-card__crest" viewBox="0 0 24 24"><polygon points="12,3 21,9 21,15 12,21 3,15 3,9" fill="#0F1730" stroke="#006437" stroke-width="1.2"/></svg>
+            <div>
+              <small>Brasileirão · Brasil</small>
+              <h3 style="margin:0;">Palmeiras</h3>
+            </div>
+            <span class="chev">▾</span>
+          </div>
+          <div class="team-card__body">
+            <div class="team-card__inner">
+              <div>
+                <div class="info-list">
+                  <div><b>Fundação</b>1914</div>
+                  <div><b>Cidade</b>São Paulo, Brasil</div>
+                  <div><b>Estádio</b>Allianz Parque</div>
+                  <div><b>Técnico</b>Abel Ferreira</div>
+                </div>
+                <p>Maior campeão do futebol brasileiro, o Palmeiras viveu uma nova era vitoriosa a partir de 2020, somando títulos nacionais e continentais sob comando do técnico português Abel Ferreira, consolidando uma das gestões mais duradouras do futebol atual.</p>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Principais títulos</h4>
+                <div class="tag-list"><span class="tag-pill">3x Copa Libertadores</span><span class="tag-pill">12x Brasileirão</span><span class="tag-pill">1x Recopa Sul-Americana</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Ídolos históricos</h4>
+                <div class="tag-list"><span class="tag-pill">Ademir da Guia</span><span class="tag-pill">Rivaldo</span><span class="tag-pill">Marcos</span></div>
+                <h4 style="font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold);">Elenco atual (destaques)</h4>
+                <div class="tag-list"><span class="tag-pill">Estêvão</span><span class="tag-pill">Raphael Veiga</span><span class="tag-pill">Weverton</span></div>
+              </div>
+              <div>
+                <div class="lineup">
+                  <span class="meta" style="display:block;text-align:center;margin-bottom:8px;">Provável escalação (exemplo · 4-2-3-1)</span>
+                  <div class="row"><div class="player"><b>21</b>Weverton</div></div>
+                  <div class="row"><div class="player"><b>6</b>Piquerez</div><div class="player"><b>4</b>Gómez</div><div class="player"><b>3</b>Murilo</div><div class="player"><b>2</b>Mayke</div></div>
+                  <div class="row"><div class="player"><b>5</b>Aníbal Moreno</div><div class="player"><b>8</b>Richard Ríos</div></div>
+                  <div class="row"><div class="player"><b>20</b>Raphael Veiga</div><div class="player"><b>9</b>Flaco López</div><div class="player"><b>41</b>Estêvão</div></div>
+                </div>
+                <div class="stadium-strip"><span>🏟️ Allianz Parque · 43.713 lugares</span></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="brand" style="margin-bottom:14px;">
+          <svg class="brand__mark" viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="22" fill="#0A1128" stroke="#E8B33D" stroke-width="2"/>
+            <text x="24" y="29" text-anchor="middle" font-family="Bebas Neue, sans-serif" font-size="14" fill="#E8B33D">XI</text>
+          </svg>
+          <span class="brand__name">ARENA <em>XI</em></span>
+        </div>
+        <p>Seu ponto de encontro para ligas, clubes e histórias do futebol mundial.</p>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="ligas.html">Ligas</a></li>
+          <li><a href="times.html">Times</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Ligas</h4>
+        <ul>
+          <li><a href="ligas.html#premier-league">Premier League</a></li>
+          <li><a href="ligas.html#laliga">La Liga</a></li>
+          <li><a href="ligas.html#brasileirao">Brasileirão</a></li>
+          <li><a href="ligas.html#champions">Champions League</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Redes sociais</h4>
+        <div class="social">
+          <a href="contato.html" aria-label="Instagram">IG</a>
+          <a href="contato.html" aria-label="X / Twitter">X</a>
+          <a href="contato.html" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 ARENA XI. Projeto demonstrativo — dados de fãs, para fãs.</span>
+      <span>Feito para desktop, tablet e celular.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
